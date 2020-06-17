@@ -1,0 +1,52 @@
+@media screen and (max-height:480px){
+    main {
+        margin-top: 6px;
+    }
+    footer {
+        margin-top: 19px;
+        position: initial;
+    }
+}
+@media screen and (max-width: 720px){
+    main .main-input {
+        width: 85%;
+    }
+    main .main-input input {
+        width: 84%;
+    }
+    main .main-buttons {
+        width: 100%;
+    }
+    footer .footer-down {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #f2f2f2;
+    }
+    footer .footer-left {
+        margin: 0;
+        grid-row: 2;
+        align-items: center;
+        text-align: center;
+    }
+    footer .footer-right {
+        grid-row: 1;
+        margin: 0;
+        justify-self: center;
+        align-items: center;
+    }
+    footer ul li a {
+        margin: 8px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 320px) {
+    main .main-buttons button{
+        padding: 0px 8px;
+        margin-right: 6px;
+        font-size: 12px;
+    }
+    footer ul li a {
+        margin: 5px;
+        font-size: 12px;
+    }
+}

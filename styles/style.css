@@ -56,12 +56,13 @@ main .main-logo img {
     margin-bottom: 1.5rem;
 }
 main .main-input {
-    width: 586px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 31px;
 }
 main .main-input-container {
-    width: 586px;
+    width: 100%;
+    padding: 0 2px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
